@@ -1,0 +1,16 @@
+<app-divider>
+    Placeholder Component
+</app-divider>
+<app-placeholder [header]="false" [lines]="10"></app-placeholder> <!--[header]="false" ->property binding syntax->for customization--> <!--remember complete elementsModule is already being imported and we are not doing any imports  or exports for placeholder as it is created within the same module as the elements-homeComponent -->
+
+
+<app-divider>
+    Segment Component
+</app-divider>
+<app-segment>
+    <header>
+        <i class="pdf file outline icon"></i>
+        No documents are listed for this customer.
+    </header>
+    <div class="ui primary button">Add Document</div>
+</app-segment>
